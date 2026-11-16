@@ -1,3 +1,5 @@
+<a href="https://taflev.com"><img src="assets/banner.png" alt="Igal Taflev: I take problems apart. AI agents, automation, human in the loop. taflev.com" width="100%"></a>
+
 # Hi, I'm Igal Taflev 👋
 
 **I put AI to work. And keep it accountable.**
