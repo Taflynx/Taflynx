@@ -32,7 +32,10 @@ Based in Montréal. I started in law (LL.B), moved through IT operations and pro
 
 | Project | What it is |
 | --- | --- |
-| [**Panoui!**](https://panoui.com) | Every curb, decoded live: a parking app for iPhone and Android, built by a studio of ~35 specialised AI agents with one human approval gate. My own initiative. |
+| [**Panoui!**](https://github.com/Taflynx/panoui.com) | Every curb, decoded live: a parking app for iPhone and Android, built by a studio of ~35 specialised AI agents with one human approval gate. My own initiative. |
+| [**BrainOS**](https://github.com/Taflynx/brainos-showcase) | A digital twin of how I think: learns from my real Claude Code conversations, writes agent skills from the evidence, and is graded against my actual replies. |
+| [**AiQ**](https://github.com/Taflynx/aiq-showcase) | Signal from the AI noise: a vetted knowledge base of agent-building know-how, with cheap triage, two human approval gates, and delivery to my agents over MCP. |
+| [**Edik**](https://github.com/Taflynx/edik-showcase) | Patient tech support for my parents: a Telegram agent in Russian, with voice and annotated screenshots, where every sensitive answer goes through me. |
 | [**CC Pulse**](https://github.com/Taflynx/ccpulse) | Understand, learn from and forecast Claude Code usage: pace against limits, forecasts, anomaly alerts and a local dashboard. |
 | [**CC Pulse TV**](https://github.com/Taflynx/ccpulse-tv) | Claude on your desk: Claude Code usage, a pixel critter and a clock with weather on a small desk display. |
 | [**Dayline**](https://github.com/Taflynx/dayline) | Every time zone you care about on one painted timeline. A single-file WebGL2 web app. |
