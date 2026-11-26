@@ -14,7 +14,7 @@ Based in Montréal. I started in law (LL.B), moved through IT operations and pro
 
 - **AI solutions and automation.** Turning slow, manual processes into systems that run on their own, with AI where it earns its place and clear controls around it.
 - **Process improvement.** Lean and data-driven, with a Six Sigma Green Belt from McGill. Measure first, then fix the process, not only the symptom.
-- **Building my own products.** Real tools for real problems, built and shipped with a studio of AI agents that I orchestrate.
+- **Building my own products.** Real tools for real problems, from AI agents to 3D-printed hardware, built and shipped with a studio of AI agents that I orchestrate.
 
 ## How I build with AI
 
@@ -37,14 +37,26 @@ Based in Montréal. I started in law (LL.B), moved through IT operations and pro
 | [**AiQ**](https://github.com/Taflynx/aiq-showcase) | Signal from the AI noise: a vetted knowledge base of agent-building know-how, with cheap triage, two human approval gates, and delivery to my agents over MCP. |
 | [**Sidekick**](https://github.com/Taflynx/sidekick-showcase) | Your next line, under the camera: a tablet next to the webcam listens to the meeting, reads each participant's tone, and writes what to say in short sentences paced for reading aloud. |
 | [**Edik**](https://github.com/Taflynx/edik-showcase) | Patient tech support for my parents: a Telegram agent in Russian, with voice and annotated screenshots, where every sensitive answer goes through me. |
+| [**Lastdrop**](https://github.com/Taflynx/lastdrop) | Know before the last shot: a low-water alert for an espresso machine, with a capacitive sensor outside the tank, ESPHome and Home Assistant, in a parametric 3D-printed housing with an inlaid logo. |
 | [**CC Pulse**](https://github.com/Taflynx/ccpulse) | Understand, learn from and forecast Claude Code usage: pace against limits, forecasts, anomaly alerts and a local dashboard. |
 | [**CC Pulse TV**](https://github.com/Taflynx/ccpulse-tv) | Claude on your desk: Claude Code usage, a pixel critter and a clock with weather on a small desk display. |
 | [**Dayline**](https://github.com/Taflynx/dayline) | Every time zone you care about on one painted timeline. A single-file WebGL2 web app. |
 | [**Dayscape**](https://github.com/Taflynx/dayscape) | A browser home page of movable widgets over a living landscape that follows the real time and weather. |
 
+### Off the screen: Lastdrop
+
+<a href="https://github.com/Taflynx/lastdrop"><img src="https://raw.githubusercontent.com/Taflynx/lastdrop/main/docs/images/hero.jpg" alt="Lastdrop: know before the last shot. A low-water alert for espresso machines." width="100%"></a>
+
+My espresso machine only stops when the tank is already empty, in the middle of a shot. Lastdrop warns me while there are still two or three shots left.
+
+- **Nothing inside the machine.** A capacitive sensor on the outside of the tank feels the water through the plastic. Nothing is opened, drilled or wired in.
+- **Smart, not noisy.** An ESP32 on ESPHome reports to Home Assistant, which warns by LED, voice and phone push, only in the daytime and only when someone is home.
+- **Designed in code.** A fully parametric CadQuery housing with 31 automated geometry checks and 8 printed parts, with no glue and no bought screws. It hangs on the tank rim, and the sensor height adjusts from 30 to 90 mm in 5 mm clicks.
+- **Printed in three colours.** PETG on a Bambu Lab A1 mini with the AMS lite, with the logo inlaid in turquoise in the LED face. The build files and the full guide are in the repo.
+
 Some of my most significant work is not here: systems built for an employer are proprietary, and some products are private. I'm glad to walk through the architecture and the agent setup in a conversation.
 
-**What I work with:** Claude Code, multi-agent workflows, TypeScript, Cloudflare, Google Apps Script and Google Workspace, web apps (PWA).
+**What I work with:** Claude Code, multi-agent workflows, TypeScript, Cloudflare, Google Apps Script and Google Workspace, web apps (PWA). Off the screen: ESPHome, Home Assistant, CadQuery and 3D printing.
 
 ## Find me
 
